@@ -3,7 +3,7 @@ Bundler.require(:default)
 
 COUNT = 50
 RATE = 5
-INTERVAL = 5
+INTERVAL = 5 #seconds
 
 class CallCheck
   extend Limiter::Mixin
